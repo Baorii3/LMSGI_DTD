@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg SYSTEM "cataleg.dtd">
+<cataleg>
+    <llista_actors>
+        <actor id="a1">
+            <nom>Izan</nom>
+            <edat></edat>
+        </actor>
+        <actor id="a2">
+            <nom>Ian</nom>
+            <edat>18</edat>
+        </actor>
+        <actor id="a3">
+            <nom>Chali</nom>
+            <edat>23</edat>
+        </actor>
+    </llista_actors>
+    <llista_pelicules>
+        <pelicula id="p1">
+            <titol idioma = "español">Movie 1</titol>
+            <director>Director 1</director>
+            <any>2010</any>
+            <actors>
+                <actor_ref ref = "a1"></actor_ref>
+            </actors>
+        </pelicula>
+        <pelicula id="p2">
+            <titol idioma = "ingles">Movie 2</titol>
+            <director>Director 2</director>
+            <any>2020</any>
+            <actors>
+                <actor_ref ref = "a1"></actor_ref>
+                <actor_ref ref = "a2"></actor_ref>
+            </actors>
+        </pelicula>
+        <pelicula id="p3">
+            <titol idioma = "español">Movie 3</titol>
+            <director>Director 3</director>
+            <any>2015</any>
+            <actors>
+                <actor_ref ref = "a1"></actor_ref>
+                <actor_ref ref = "a2"></actor_ref>
+                <actor_ref ref = "a3"></actor_ref>
+            </actors>
+        </pelicula>
+    </llista_pelicules>
+    <llista_recomanacions_pelicules>
+        <recomanacio ref = "p1"></recomanacio>        <recomanacio ref = "p1"></recomanacio>
+        <recomanacio ref = "p2"></recomanacio>
+    </llista_recomanacions_pelicules>
+</cataleg>
