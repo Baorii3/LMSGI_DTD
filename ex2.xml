@@ -45,7 +45,8 @@
         </pelicula>
     </llista_pelicules>
     <llista_recomanacions_pelicules>
-        <recomanacio ref = "p1"></recomanacio>        <recomanacio ref = "p1"></recomanacio>
+        <recomanacio ref = "p1"></recomanacio>        
+        <recomanacio ref = "p1"></recomanacio>
         <recomanacio ref = "p2"></recomanacio>
     </llista_recomanacions_pelicules>
 </cataleg>
